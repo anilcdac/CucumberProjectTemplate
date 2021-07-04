@@ -1,3 +1,4 @@
+@Flow1
 Feature: Login Flow
 
   Scenario: Setup chrome

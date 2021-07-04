@@ -19,7 +19,6 @@ public class AutomationFixture3 extends BaseFixture {
         // String baseUrl = "https://in.linkedin.com/";
         driver.get(arg0);  //hit url
         driver.manage().window().maximize();
-        throw new io.cucumber.java.PendingException();
     }
 
 
