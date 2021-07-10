@@ -33,4 +33,23 @@ public class AutomationFixture3 extends BaseFixture {
     }
 
 
+    @Given("I populate field {string} with value {string}")
+    public void iPopulateFieldWithValue(String arg0, String arg1) {
+        
+        
+    }
+
+    @And("I populate picker field {string} with value {string}")
+    public void iPopulatePickerFieldWithValue(String arg0, String arg1) {
+        
+    }
+
+    @And("I wait for progress bar  \\/\\/ wait- Explicit, Implicit, fluent")
+    public void iWaitForProgressBarWaitExplicitImplicitFluent() {
+        
+    }
+
+    @And("I populate dropdown field {string} with value {string}")
+    public void iPopulateDropdownFieldWithValue(String arg0, String arg1) {
+    }
 }
