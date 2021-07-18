@@ -15,8 +15,9 @@ import org.junit.runner.RunWith;
         plugin={
                 "html:target/cucumber-reports/index.html",
                 "html:target/cucumber-reports/cucumber.json",
-                "html:target/cucumber-reports/cucumber.xml"
-
+                "html:target/cucumber-reports/cucumber.xml",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "summary"
         }
         ,
         tags= "@Flow1"
