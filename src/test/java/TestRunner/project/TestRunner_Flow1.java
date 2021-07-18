@@ -17,9 +17,7 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports/cucumber.json",
                 "html:target/cucumber-reports/cucumber.xml",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-                "summary"
-        }
-        ,
+                "summary"},
         tags= "@Flow1"
 )
 

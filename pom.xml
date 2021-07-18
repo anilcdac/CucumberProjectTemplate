@@ -9,9 +9,14 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <project.build.sourceEncoing>UTF-8</project.build.sourceEncoing>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
         <cucumber.version>6.9.1</cucumber.version>
+        <extent.version>5.0.5</extent.version>
+        <pdfreporter.version>1.6.0</pdfreporter.version>
+
     </properties>
 
     <dependencies>
@@ -44,12 +49,12 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>5.0.5</version>
+            <version>${extent.version}</version>
         </dependency>
         <dependency>
             <groupId>tech.grasshopper</groupId>
             <artifactId>extent-pdf-report</artifactId>
-            <version>1.7.2</version>
+            <version>${pdfreporter.version}</version>
         </dependency>
         <dependency>
             <groupId>tech.grasshopper</groupId>
@@ -59,12 +64,19 @@
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>klov-reporter</artifactId>
-            <version>5.0.5</version>
+            <version>${extent.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.ralfstuckert.pdfbox-layout/pdfbox2-layout -->
+        <dependency>
+            <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
+            <artifactId>pdfbox2-layout</artifactId>
+            <version>1.0.0</version>
+            <systemPath>${project.basedir}/lib/pdfbox2-layout-1.0.0.jar</systemPath>
         </dependency>
 
     </dependencies>
